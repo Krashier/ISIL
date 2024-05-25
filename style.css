@@ -1,0 +1,220 @@
+*{
+    background-color: white;   
+    font-family: "Roboto Mono", monospace;
+    --color1:#0021db;
+    resize: both;
+
+}
+#menu img{
+    width: 65px;
+}
+#menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 30%;
+    height: 100px;
+    justify-content: space-around;
+    font-size: 20px;
+    margin-right: 20px;
+}
+#menu a{
+    text-decoration: none;
+    color: black;
+}
+#location{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+    height: 100px;
+    justify-content: right;
+    margin-right: 20px;
+    font-size: 20px;
+}
+#login{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 20%;
+    justify-content:right;
+    height: 100px;
+    font-size: 20px;
+}
+#login p{
+    margin: 15px;
+}
+#fir{
+    background-color: white;
+    padding: 12px;
+    color: black;
+    border-radius: 30px;
+    border: 3px solid black;
+}
+#sec{
+    background-color: black;
+    padding: 12px;
+    color: white;
+    border-radius: 30px;
+}
+#head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-bottom: 1px solid black;
+}
+
+
+#first_pub img, #second_pub img{
+    width: 614px;
+}
+#first_pub{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#first_pub p{
+    border: 3px solid white;
+    border-radius: 20px;
+    margin-left: 230px;
+    margin-right: 230px;
+    padding: 15px;
+}
+#second_pub{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#second_pub p{
+    border: 3px solid white;
+    border-radius: 20px;
+    margin-left: 230px;
+    margin-right: 230px;
+    padding: 15px;
+}
+.content{
+    width: 614px;
+    background-color: var(--color1);
+}
+.content p, .content h1, .content h3{
+    background-color: var(--color1);
+    color: white;
+    margin: 50px;
+    text-align: center;
+}
+.content h1{
+    font-size: 45px;
+}
+.content p{
+    font-size: 15px;
+}
+.content h3{
+    font-size: 20px;
+}
+
+
+#second_menu{
+    border-top: 1px solid black;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 190px;
+    margin-right: 190px;
+    border-bottom: 1px solid black;
+    font-size: 15px;
+}
+li{
+    list-style-type:none;
+    margin-top: 15px;
+}
+
+
+
+#media{
+    margin-left: 270px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+#foot{
+    margin-left: 270px;
+    margin-right: 270px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+#foot img{
+    width: 5%;
+    
+}
+
+
+
+#middle{
+    display: flex;
+    flex-direction: row;
+    margin-left: 190px;
+    margin-right: 190px;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+
+#left_menu{
+    border: 1px solid green;
+    padding: 20px;
+    margin: 10px;
+}
+
+
+#right_menu{
+    border: 1px solid green;
+    padding: 30px;
+    margin: 10px;
+    
+}
+
+
+#right_menu h3{
+    font-size: 30px;
+}
+
+
+.coffee{
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    align-items: center;
+}
+
+
+.coffee img{
+    width: 25%;
+    border-radius: 50%;
+}
+
+
+.coffee p{
+    margin: 20px;
+}
+
+#first_row, #second_row{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#drinks{
+    display: flex;
+    border-top: 1px gray solid;
+    padding-top: 10px;
+}
